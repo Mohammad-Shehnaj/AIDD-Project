@@ -1,0 +1,5 @@
+option solver cplex;
+model index.mod;
+data index.dat;
+solve;
+display w;

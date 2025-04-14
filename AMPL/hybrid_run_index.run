@@ -1,0 +1,5 @@
+option solver cplex;
+model index.mod;
+data hybrid_index.dat;
+solve;
+display w > hybrid_output.txt;
